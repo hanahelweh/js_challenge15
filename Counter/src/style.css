@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btns{
+    @apply border-2 border-black rounded-md
+    py-0.5 px-4 tracking-widest hover:bg-black hover:text-white
+    transition ease-out duration-700;
+}
