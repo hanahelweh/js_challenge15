@@ -1,0 +1,41 @@
+
+#im::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f10e";
+    background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 38%;
+    top: 4px;
+    z-index: 2;
+    color: white;
+    font-size:large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    position: relative;
+    z-index: 1;
+}
+#im::after{
+    content: "";
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
+    left: 37%;
+    top: -5px;
+    position: absolute;
+    z-index: 0;
+}
+@media (max-width:500px){
+    #im::before{
+        left:25%;
+    }
+}
